@@ -1090,7 +1090,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #000000;
-  background-color: #5cb85c;
+  background-color: #5bc0de;
 }
 input,
 button,
@@ -1135,7 +1135,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.42857143;
-  background-color: #5cb85c;
+  background-color: #5bc0de;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -2285,7 +2285,7 @@ th {
   border-top: 2px solid #dddddd;
 }
 .table .table {
-  background-color: #5cb85c;
+  background-color: #5bc0de;
 }
 .table-condensed > thead > tr > th,
 .table-condensed > tbody > tr > th,
@@ -3931,7 +3931,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
   color: #555555;
-  background-color: #5cb85c;
+  background-color: #5bc0de;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -3977,7 +3977,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs.nav-justified > .active > a,
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #5cb85c;
+    border-bottom-color: #5bc0de;
   }
 }
 .nav-pills > li {
@@ -4045,7 +4045,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .nav-tabs-justified > .active > a,
   .nav-tabs-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus {
-    border-bottom-color: #5cb85c;
+    border-bottom-color: #5bc0de;
   }
 }
 .tab-content > .tab-pane {
@@ -4889,7 +4889,7 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #5cb85c;
+  background-color: #5bc0de;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: border 0.2s ease-in-out;
@@ -5124,8 +5124,8 @@ a.thumbnail.active {
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
-  background-color: #5cb85c;
-  border: 1px solid #163216;
+  background-color: #5bc0de;
+  border: 1px solid #124a5b;
 }
 .list-group-item:first-child {
   border-top-right-radius: 4px;
@@ -5287,7 +5287,7 @@ a.list-group-item-danger.active:focus {
 }
 .panel {
   margin-bottom: 20px;
-  background-color: #5cb85c;
+  background-color: #5bc0de;
   border: 1px solid transparent;
   border-radius: 4px;
   -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -6800,12 +6800,6 @@ body {
     border-top-left-radius: 2em;
   }
 }
-.qtrans_flag_es {
-  height: 34px;
-  width: 50px;
-  display: block;
-  background: transparent url("http://www.ryucr.com/wp-content/plugins/qtranslate/flags/es.png") no-repeat scroll 0% 0%;
-}
 #carousel-home {
   padding-left: 0;
   padding-right: 0;
@@ -6840,4 +6834,23 @@ footer {
 }
 footer a {
   color: #B0C4DE;
+}
+a.qtrans_flag_es {
+  border: 1px hidden black;
+  height: 34px;
+  padding-bottom: 2em;
+  width: 50px;
+  display: block;
+  background: transparent url("http://www.ryucr.com/wp-content/plugins/qtranslate/flags/es.png") no-repeat scroll 0% 0%;
+}
+a.qtrans_flag_en {
+  border: 1px solid transparent;
+  height: 34px;
+  padding-bottom: 2em;
+  width: 50px;
+  display: block;
+  background: transparent url("http://www.ryucr.com/wp-content/plugins/qtranslate/flags/en.png") no-repeat scroll 0% 0%;
+}
+#btn-link-group a:hover {
+  border: 1px solid black;
 }
