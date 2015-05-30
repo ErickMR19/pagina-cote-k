@@ -10,6 +10,7 @@
         <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
         rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="styleCTK.css">
+        <script type="text/javascript" src="http://jscolor.com/example/jscolor/jscolor.js"></script>
     </head>
     
     <body>
@@ -26,6 +27,7 @@
                                 <div class="btn-group" id="btn-link-group">
                                     <a href="#" class="btn btn-default qtrans_flag_es"><br></a>
                                     <a href="#" class="btn btn-default qtrans_flag_en"><br></a>
+                                    <a class="btn btn-primary" href="#"><input class="color" onchange="document.getElementsByTagName('BODY')[0].style.backgroundColor = '#'+this.color" value="544820"></a>
                                 </div>
                             </div>
                             <div class="buffer-row col-md-12">
@@ -54,9 +56,8 @@
         </div>
         <div class="section" id="content-section">
             <div class="container">
-                <div class="col-md-12" id="carousel-home">
-                    <div class="carousel slide" id="carousel-example" data-interval="false"
-                    data-ride="carousel">
+                <div class="col-md-12" id="carousel-container">
+                    <div class="carousel slide" id="carousel-home" data-interval="5000" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="item active">
                                 <img src="slides/slide1.jpg">
@@ -74,31 +75,28 @@
                                 <img src="slides/slide5.jpg">
                             </div>
                         </div>
-                        <a class="left carousel-control" href="#carousel-example" data-slide="prev"><i class="icon-prev  fa fa-angle-left"></i></a>
-                        <a class="right carousel-control" href="#carousel-example" data-slide="next"><i class="icon-next fa fa-angle-right"></i></a>
+                        <a class="left carousel-control" href="#carousel-home" data-slide="prev"><i class="icon-prev fa fa-angle-left"></i></a>
+                        <a class="right carousel-control" href="#carousel-home" data-slide="next"><i class="icon-next fa fa-angle-right"></i> </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="section" id="section-content">
-            <div class="container">
+            <div class="container" id="container-home-content">
                 <div class="col-md-12" id="column-text">
-                    <p>Costa Rica es un país que se ubica en el centro del Continente Americano,
-                        en el centro del Trópico, y además de sus bellezas naturales es una de
-                        las zonas más preciadas por su riqueza en flora y fauna.</p>
-                    <p>Esta condición permite que muchas especies de árboles maderables tengan
-                        un hábitat para desarrollarse de manera más efectiva, produciendo madera
-                        de alta calidad. Asimismo, la condición de los suelos de Costa Rica permite
-                        un excelente desarrollo en las especies maderables que se reforestan, lo
-                        cual permite una excelente madera para exportar al resto del mundo.</p>
+                    <p>Costa Rica es un país que se ubica en Centroamérica, en la región del
+                        Trópico, cuyo clima permite una gran variedad de riquezas naturales, flora
+                        y fauna. Estas condiciones naturales crean un excelente hábitat para muchas
+                        especies de árboles maderables, produciendo así madera de alta calidad
+                        para exportar al resto del mundo.</p>
                     <p>Cote-k es una empresa que se dedica a la exportación de madera en troza
-                        y aserrada, de especies como Teca (Tectonis Grandis), Melina (Gmelina)
-                        y Cocobolo (Dalbergia Retusa), entre otras, para mercados como La India
-                        y República Popular China.</p>
-                    <p>Actualmente se está abriendo mercados en países de Europa y Norteamérica,
-                        ajustándose a las exigencias de los diferentes mercados.</p>
-                    <p>Si usted es importador de madera en cualquier parte del mundo, puede contactarnos
-                        y con gusto podemos negociar y ajustarnos a su necesidad.</p>
+                        y aserrada, de especies como Teca (Tectona Grandis), Melina (Gmelina Arborea)
+                        y Cocobolo (Dalbergia Retusa), entre otras, para mercados como la de República
+                        India y la República Popular China.</p>
+                    <p>Cote-k es una empresa que se dedica a la exportación de madera en troza
+                        y aserrada, de especies como Teca (Tectona Grandis), Melina (Gmelina Arborea)
+                        y Cocobolo (Dalbergia Retusa), entre otras, para mercados como la de República
+                        India y la República Popular China.</p>
                 </div>
             </div>
         </div>

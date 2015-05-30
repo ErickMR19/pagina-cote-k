@@ -42,7 +42,7 @@
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-@body-bg : #5bc0de;
+@body-bg : #544820;
 //** Global text color on `<body>`.
 @text-color : black;
 
@@ -1045,19 +1045,44 @@ display: block;
   	border: 1px solid black;
 }
 
-#row-content-about{
-	background-color:white;
-  	margin-bottom:0;
-  	margin-top:0;
-  	padding-bottom:25px;
+
+
+.partner-table {
+    background-color: #fff;
+	display: table;
+	height: 100%;
+   table-layout: fixed
+}
+.partner {
+	display: table-cell;
+  	vertical-align: middle;
+	float: none;
 }
 
-
-.imagen1{
-	margin-left:20px;
+.img-responsive-tbl{
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
-.texto1{
-	margin-left:20px;
+.row-nomargin{
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+padding-top: 3%;
+padding-bottom: 3px;
 }
 
+div#carousel-container{
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div#container-home-content p{
+    padding-top: 5px;
+	font-size: 1.2em;
+}
+
+div#container-home-content p:first-child{
+    padding-top: 0px;
+	font-size: 1.2em;
+}
