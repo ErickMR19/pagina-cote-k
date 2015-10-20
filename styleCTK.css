@@ -6779,13 +6779,13 @@ body {
 #logo-header {
   padding-right: 20px;
 }
-#column-text p {
+.column-text p {
   margin-top: 12px;
 }
-#column-text p:last-child {
+.column-text p:last-child {
   margin-bottom: 0;
 }
-#column-text {
+.column-text {
   padding-top: 10px;
   padding-bottom: 20px;
 }
