@@ -1,12 +1,12 @@
 /*!
- * Default theme for Pingendo 
- * Homepage: http://pingendo.com  
- * Copyright 2015 Pingendo 
- * Licensed under MIT 
+ * Default theme for Pingendo
+ * Homepage: http://pingendo.com
+ * Copyright 2015 Pingendo
+ * Licensed under MIT
  * Based on Bootstrap v3.3.4
 */
-/* Add custom CSS classes here 
- * 
+/* Add custom CSS classes here
+ *
  * img {
  *   box-shadow : 0px 0px 10px black !important;
  * }
@@ -6781,6 +6781,7 @@ body {
 }
 .column-text p {
   margin-top: 12px;
+  text-align:justify;
 }
 .column-text p:last-child {
   margin-bottom: 0;
@@ -6899,4 +6900,25 @@ div#contenedor-menu-principal {
 }
 #barra-idiomas a {
   padding-left: 2px;
+}
+
+@media (min-width: 992px) {
+	#content-section .row {
+	  display: -webkit-box;
+	  display: -webkit-flex;
+	  display: -ms-flexbox;
+	  display:         flex;
+	}
+	div.texto-imagen-productos{
+		max-height:372px;
+		overflow-y:auto;
+	}
+}
+
+#links img{
+  width: 280px;
+  height: 280px;
+  object-fit: fill;
+  margin: 10px;
+  border: 6px double #FFF;
 }
