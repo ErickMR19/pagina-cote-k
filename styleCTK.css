@@ -6922,3 +6922,23 @@ div#contenedor-menu-principal {
   margin: 10px;
   border: 6px double #FFF;
 }
+
+div.columna-centrada p{
+	text-align:center;
+}
+
+.skype-contact .hiddenSkype{
+	display:none;
+}
+a.skype-contact{
+	color:white;
+}
+.skype-contact:hover .hiddenSkype{
+	display:inline;
+	font-size:18px;
+}
+a.skype-contact:hover{
+	color:#00AFF0;
+	text-decoration: none;
+	font-size:16px;
+}
