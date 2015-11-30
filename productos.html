@@ -16,11 +16,11 @@
 </head>
 
 <body>
-<div class="section hidden-xs" id="section-header"> <img src="circle.png" id="logo-header">
+<div class="section hidden-xs" id="section-header"> <img src="logo.png" id="logo-header">
   <div id="contenedor-navegacion" >
     <div id="navegacion" class="row">
       <div id="contenedor-menu-principal" class="col-md-8">
-        <ul class="nav nav-justified nav-pills top-buffer" id="menu-principal">
+        <ul class="nav nav-justified nav-pills top-buffer menu-principal">
           <li> <a href="index.html">Inicio</a> </li>
           <li style="white-space: nowrap;"> <a href="acercade.html">Quienes Somos</a> </li>
           <li class="active"> <a href="#">Productos</a> </li>
@@ -30,7 +30,12 @@
         </ul>
       </div>
       <div class="col-md-4 col-lg-offset-1 col-lg-3" style="padding-top: 10px; text-align: right; ">
-        <div class="btn-group" id="barra-idiomas"> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="index_eng.html" class="btn btn"><img src="flagusa.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> </div>
+        <div class="btn-group barra-idiomas">
+          <a href="#" class="btn btn"><img src="flagcr.png"/></a>
+          <a href="index_eng.html" class="btn btn"><img src="flagusa.png"/></a>
+          <a href="javascript:void(0);" class="btn btn btn-dummy"><img src="flagcr.png" /></a>
+          <a href="javascript:void(0);" class="btn btn btn-dummy"><img src="flagcr.png" /></a>
+        </div>
       </div>
     </div>
   </div>
@@ -40,20 +45,24 @@
     <div class="col-xs-12"> <img src="logo.png" class="center-block img-responsive" id="logo-header-xs"> </div>
     <div class="col-xs-12" style="background-color: black; margin-top: 50px; padding: 20px;">
       <div class="row">
-        <div class="col-xs-offset-3 col-xs-6">
+        <div class="col-xs-offset-1 col-xs-10">
           <div class="buffer-row col-md-12">
-            <ul class="nav nav-justified nav-pills top-buffer">
+            <ul class="nav nav-justified nav-pills top-buffer menu-principal">
               <li> <a href="index.html">Inicio</a> </li>
-              <li class="active"> <a href="#">Quienes Somos</a> </li>
-              <li> <a href="#">Productos</a> </li>
+              <li> <a href="acercade.html">Quienes Somos</a> </li>
+              <li class="active"> <a href="#">Productos</a> </li>
               <li> <a href="galeria.html">Galeria</a> </li>
-              <li> <a href="contacto.html">Contacto<br>
-                </a> </li>
+              <li> <a href="contacto.html">Contacto</a> </li>
             </ul>
           </div>
         </div>
-        <div class="col-xs-offset-1 col-xs-2" style="color: white;">
-          <div class="btn-group" id="barra-idiomas"> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> </div>
+        <div class="col-xs-offset-2 col-xs-8" style="color: white;">
+          <div class="btn-group barra-idiomas">
+            <a href="#" class="btn btn"><img src="flagcr.png"/></a>
+            <a href="index_eng.html" class="btn btn"><img src="flagusa.png"/></a>
+            <a href="javascript:void(0);" class="btn btn btn-dummy"><img src="flagcr.png" /></a>
+            <a href="javascript:void(0);" class="btn btn btn-dummy"><img src="flagcr.png" /></a>
+          </div>
         </div>
       </div>
     </div>
@@ -71,7 +80,8 @@
       </div>
     </div>
     <div class="row" style="margin-top:20px;">
-      <div style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); border: 2px solid rgb(255, 255, 255); border-radius: 5px; font-size:14px;" class="column-text col-md-6 texto-imagen-productos">
+    <div class="col-md-5 col-md-offset-1 col-md-push-6" style="border: 6px double rgb(255, 255, 255); padding:0" > <img style="width:100%" src="img/productos/melina.jpg"> </div>
+      <div style="color: rgb(255, 255, 255); background-color: rgb(0, 0, 0); border: 2px solid rgb(255, 255, 255); border-radius: 5px; font-size:14px;" class="column-text col-md-6 texto-imagen-productos col-md-pull-6">
       	<h2>MELINA (Gmelina Arborea):</h2>
         <p>
         El árbol de Melina proviene de la familia de las Lamiaceas, es nativo de La India y el sudeste de Asia, introducido posteriormente en Africa, Centroamérica y Sudamérica.
@@ -81,7 +91,6 @@
         En Costa Rica, gracias a su clima y suelo, se cultiva fácilmente esta madera, produciendo  árboles muy altos y gruesos, ideales para las exigencias del mercado, tanto  local como internacional, garantizando una madera de primera calidad.
         </p>
       </div>
-      <div class="col-md-5 col-md-offset-1" style="border: 6px double rgb(255, 255, 255); padding:0" > <img style="width:100%" src="img/productos/melina.jpg"> </div>
     </div>
     <div class="row" style="margin-top:20px;">
       <div class="col-md-5" style="border: 6px double rgb(255, 255, 255); padding:0" > <img style="width:100%" src="img/productos/cocobolo.jpg"> </div>

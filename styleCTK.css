@@ -6798,7 +6798,7 @@ body {
 footer a {
   color: #B0C4DE;
 }
-#barra-idiomas img:hover {
+.barra-idiomas img:hover {
   opacity: 0.7;
 }
 .partner-table {
@@ -6826,19 +6826,19 @@ body {
   background-image: url("background.jpg");
 }
 @media (max-width: 1080px) {
-  #barra-idiomas a {
+  .barra-idiomas a {
     padding-left: 2px;
   }
-  #barra-idiomas img {
+  .barra-idiomas img {
     width: 28px;
   }
-  #menu-principal > li > a {
+  .menu-principal > li > a {
     padding-left: 10px;
     padding-right: 9px;
     padding-top: 7px;
     padding-left: 7px;
   }
-  #menu-principal > li > a {
+  .menu-principal > li > a {
     margin-left: 5px;
   }
 }
@@ -6890,15 +6890,15 @@ div#contenedor-menu-principal {
     margin-top: 200px;
   }
 }
-#menu-principal > li > a {
+.menu-principal > li > a {
   margin-left: 10px;
   border: 2px solid white;
   color: white;
 }
-#menu-principal > li > a:hover {
+.menu-principal > li > a:hover {
   background-color: #00AF5F;
 }
-#barra-idiomas a {
+.barra-idiomas a {
   padding-left: 2px;
 }
 
@@ -6944,5 +6944,10 @@ a.skype-contact:hover{
 }
 
 span.span-bold{
-	font-weight: bold;	
+	font-weight: bold;
+}
+
+a.btn-dummy{
+  cursor: default;
+  visibility: hidden;
 }

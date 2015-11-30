@@ -13,11 +13,11 @@
 </head>
 
 <body>
-<div class="section hidden-xs" id="section-header"> <img src="circle.png" id="logo-header">
+<div class="section hidden-xs" id="section-header"> <img src="logo.png" id="logo-header">
   <div id="contenedor-navegacion" >
     <div id="navegacion" class="row">
       <div id="contenedor-menu-principal" class="col-md-8">
-        <ul class="nav nav-justified nav-pills top-buffer" id="menu-principal">
+        <ul class="nav nav-justified nav-pills top-buffer menu-principal">
           <li> <a href="index.html">Inicio</a> </li>
           <li class="active" style="white-space: nowrap;"> <a href="#">Quienes Somos</a> </li>
           <li> <a href="productos.html">Productos</a> </li>
@@ -27,7 +27,12 @@
         </ul>
       </div>
       <div class="col-md-4 col-lg-offset-1 col-lg-3" style="padding-top: 10px; text-align: right; ">
-        <div class="btn-group" id="barra-idiomas"> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="index_eng.html" class="btn btn"><img src="flagusa.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> </div>
+        <div class="btn-group barra-idiomas">
+          <a href="#" class="btn btn"><img src="flagcr.png"/></a>
+          <a href="index_eng.html" class="btn btn"><img src="flagusa.png"/></a>
+          <a href="javascript:void(0);" class="btn btn btn-dummy"><img src="flagcr.png" /></a>
+          <a href="javascript:void(0);" class="btn btn btn-dummy"><img src="flagcr.png" /></a>
+        </div>
       </div>
     </div>
   </div>
@@ -37,20 +42,24 @@
     <div class="col-xs-12"> <img src="logo.png" class="center-block img-responsive" id="logo-header-xs"> </div>
     <div class="col-xs-12" style="background-color: black; margin-top: 50px; padding: 20px;">
       <div class="row">
-        <div class="col-xs-offset-3 col-xs-6">
+        <div class="col-xs-offset-1 col-xs-10">
           <div class="buffer-row col-md-12">
-            <ul class="nav nav-justified nav-pills top-buffer">
+            <ul class="nav nav-justified nav-pills top-buffer menu-principal">
               <li> <a href="index.html">Inicio</a> </li>
               <li class="active"> <a href="#">Quienes Somos</a> </li>
               <li> <a href="productos.html">Productos</a> </li>
-              <li> <a href="#">Galeria</a> </li>
-              <li> <a href="contacto.html">Contacto<br>
-                </a> </li>
+              <li> <a href="galeria.html">Galeria</a> </li>
+              <li> <a href="contacto.html">Contacto</a> </li>
             </ul>
           </div>
         </div>
-        <div class="col-xs-offset-1 col-xs-2" style="color: white;">
-          <div class="btn-group" id="barra-idiomas"> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> <a href="#" class="btn btn"><img src="flagcr.png"/></a> </div>
+        <div class="col-xs-offset-2 col-xs-8" style="color: white;">
+          <div class="btn-group barra-idiomas">
+            <a href="#" class="btn btn"><img src="flagcr.png"/></a>
+            <a href="index_eng.html" class="btn btn"><img src="flagusa.png"/></a>
+            <a href="javascript:void(0);" class="btn btn btn-dummy"><img src="flagcr.png" /></a>
+            <a href="javascript:void(0);" class="btn btn btn-dummy"><img src="flagcr.png" /></a>
+          </div>
         </div>
       </div>
     </div>
