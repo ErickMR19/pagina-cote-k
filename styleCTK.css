@@ -6951,3 +6951,12 @@ a.btn-dummy{
   cursor: default;
   visibility: hidden;
 }
+
+ul.menu-principal > li{
+    white-space: nowrap;
+}
+
+/* TEMPORALES */
+.fa-instagram, .fa-twitter{
+  display: none;
+}
