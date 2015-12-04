@@ -6952,16 +6952,6 @@ a.btn-dummy{
   visibility: hidden;
 }
 
-<<<<<<< HEAD
-ul.menu-principal > li{
-    white-space: nowrap;
-}
-
-/* TEMPORALES */
-.fa-instagram, .fa-twitter{
-  display: none;
-}
-=======
 div#teca {
 	background-image: url("img/productos/teca.jpg");
 	background-repeat: no-repeat;
@@ -6985,4 +6975,12 @@ div#cocobolo {
 	background-size: 100% 100%, auto auto;
 	height: 100%;
 }
->>>>>>> origin/gh-pages
+
+ul.menu-principal > li{
+    white-space: nowrap;
+}
+
+/* TEMPORALES */
+.fa-instagram, .fa-twitter{
+  display: none;
+}
