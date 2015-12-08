@@ -6980,6 +6980,14 @@ ul.menu-principal > li{
     white-space: nowrap;
 }
 
+img#footer-img{
+    width: 65%;
+}
+
+.fa-instagram, .fa-twitter, .fa-facebook {
+    margin-top: 10%;
+}
+
 /* TEMPORALES */
 .fa-instagram, .fa-twitter{
   display: none;
